@@ -296,7 +296,7 @@ body {
 
 /* News Article Section */
 #news-section {
-    background-color: #FFF0DB;
+    background-color: #9F8C76;
     padding: 50px;
     text-align: center;
 }
@@ -338,12 +338,11 @@ body {
 }
 
 #news-section {
-    background-color: #FFF0DB;
+    background-color: #9F8C76; 
     padding: 50px;
     text-align: center;
 }
 
-/* Reviews Section */
 /* Reviews Section */
 #reviews-section {
     background-color: #FFF0DB;
