@@ -306,7 +306,13 @@ body {
     color: #333;
 }
 
+.articles-container {
+    display: flex;
+    justify-content: space-between;
+}
+
 .news-article {
+    width: 48%;
     margin-top: 20px;
     text-align: center;
 }
@@ -335,21 +341,6 @@ body {
     font-size: 1.1em;
     color: #666;
     line-height: 1.6;
-}
-
-#news-section {
-    background-color: #9F8C76; 
-    padding: 50px;
-    text-align: center;
-}
-
-.articles-container {
-    display: flex;
-    justify-content: space-between; /* Distribute items evenly along the main axis */
-}
-
-.news-article {
-    width: 48%; /* Adjust the width as needed */
 }
 
 
