@@ -343,35 +343,6 @@ body {
     text-align: center;
 }
 
-#news-section h2 {
-    font-size: 2em;
-    color: #333;
-}
-
-.news-article {
-    margin-top: 20px;
-}
-
-.news-article h3 {
-    font-size: 1.5em;
-    color: #444;
-    margin-bottom: 10px;
-}
-
-.news-article time {
-    font-style: italic;
-    color: #888;
-    font-size: 0.9em;
-    margin-bottom: 10px;
-}
-
-.news-article p {
-    font-size: 1.1em;
-    color: #666;
-    line-height: 1.6;
-}
-	
-
 /* Reviews Section */
 #reviews-section {
     background-color: #FFF0DB;
