@@ -79,12 +79,12 @@ body {
     background-position: center;
     color: #fff;
     text-align: center;
-    padding: 100px 0; /* Adjust padding as needed */
+    padding: 100px 0;
 }
 
 .hero-content {
-    position: relative;
-    z-index: 1;
+    position: relative;/* makes sure content stays on top*/
+    z-index: 1;/* makes sure content stays on top*/
 }
 
 .hero-content h1 {
@@ -117,14 +117,14 @@ body {
     background-image: url('images/bakemono-about.jpeg');
     background-size: cover;
     background-position: center;
-    color: #fff; /* Text color on top of the background image */
+    color: #fff; 
     text-align: center;
-    padding: 100px 0; /* Adjust as needed */
+    padding: 100px 0;
 }
 
 .about-content {
-    position: relative; /* Ensures the content stays on top of the background image */
-    z-index: 1; /* Ensures the content stays on top */
+    position: relative; /* makes sure content stays on top*/
+    z-index: 1; /* again makes sure content stays on top */
 }
 
 .about-content h2 {
@@ -387,7 +387,7 @@ body {
 .review {
     display: inline-block;
     vertical-align: top;
-    width: 30%; /* Adjust width as needed */
+    width: 30%; 
     margin: 20px;
     text-align: left;
 }
