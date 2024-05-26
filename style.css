@@ -19,7 +19,7 @@ header {
 }
 
 .logo img {
-    height: 50px;
+    height: 60px;
 }
 
 .main-nav ul {
@@ -53,7 +53,7 @@ header {
 
 .search-bar button {
     padding: 5px;
-    background-color: #555;
+    background-color: #A9A9A9;
     color: #fff;
     border: none;
     border-radius: 3px;
@@ -278,7 +278,7 @@ footer {
 .newsletter button {
     padding: 0.5rem 1rem;
     border: none;
-    background-color: #555;
+    background-color: #A9A9A9;
     color: #fff;
     border-radius: 0.25rem;
     cursor: pointer;
