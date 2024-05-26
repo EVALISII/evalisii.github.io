@@ -357,27 +357,24 @@ body {
 
 .review {
     display: flex; /* Change to flexbox */
-    flex-direction: column; /* Stack image and review content vertically */
-    align-items: center; /* Center items horizontally */
+    flex-direction: row; /* Display image and review content side by side */
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
     width: 30%; 
     margin: 20px;
     text-align: left;
 }
 
 .review img {
-    width: 100%;
+    width: 100px; /* Set width of image */
     height: auto;
-    margin-bottom: 10px;
+    margin-right: 10px; /* Add margin to separate image from text */
 }
 
 .review .review-content {
     font-size: 1.2em;
     color: #666;
     line-height: 1.5;
-}
-
-.review .review-content p:last-child {
-    margin-left: 0; /* Reset margin-left */
 }
 
 
