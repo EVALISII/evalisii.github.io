@@ -83,5 +83,5 @@ bakemono student prototype
     </div>
 </section>
 
-<link rel="stylesheet" type="text/css" href="css copy 2/style.css">
+<link rel="stylesheet" type="text/css" href="https://evalisii.github.io/style.css">
   }
