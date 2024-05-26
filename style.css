@@ -343,6 +343,16 @@ body {
     text-align: center;
 }
 
+.articles-container {
+    display: flex;
+    justify-content: space-between; /* Distribute items evenly along the main axis */
+}
+
+.news-article {
+    width: 48%; /* Adjust the width as needed */
+}
+
+
 /* Reviews Section */
 #reviews-section {
     background-color: #FFF0DB;
