@@ -344,7 +344,6 @@ body {
     line-height: 1.6;
 }
 
-
 /* Reviews Section */
 #reviews-section {
     background-color: #FFF0DB;
@@ -358,19 +357,17 @@ body {
 }
 
 .review {
-    display: flex; /* Change to flexbox */
-    flex-direction: row; /* Display image and review content side by side */
-    justify-content: center; /* Center items horizontally */
-    align-items: center; /* Center items vertically */
+    display: inline-block;
+    vertical-align: top;
     width: 30%; 
     margin: 20px;
     text-align: left;
 }
 
 .review img {
-    width: 100px; /* Set width of image */
+    width: 100%;
     height: auto;
-    margin-right: 10px; /* Add margin to separate image from text */
+    margin-bottom: 10px;
 }
 
 .review .review-content {
@@ -378,6 +375,11 @@ body {
     color: #666;
     line-height: 1.5;
 }
+
+.review .review-content p:last-child {
+    margin-left: 80px; /* Adjust as needed */
+}
+
 
 
 /* Footer Section Styles */
