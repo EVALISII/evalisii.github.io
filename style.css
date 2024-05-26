@@ -344,6 +344,7 @@ body {
 }
 
 /* Reviews Section */
+/* Reviews Section */
 #reviews-section {
     background-color: #FFF0DB;
     padding: 50px;
@@ -356,8 +357,9 @@ body {
 }
 
 .review {
-    display: inline-block;
-    vertical-align: top;
+    display: flex; /* Change to flexbox */
+    flex-direction: column; /* Stack image and review content vertically */
+    align-items: center; /* Center items horizontally */
     width: 30%; 
     margin: 20px;
     text-align: left;
@@ -376,7 +378,7 @@ body {
 }
 
 .review .review-content p:last-child {
-    margin-left: 120px; 
+    margin-left: 0; /* Reset margin-left */
 }
 
 
