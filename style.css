@@ -278,29 +278,7 @@ body {
 	  color: var(--bodyTextColor);
 	}
 
-/* Testimonials Section */
-#testimonials-section {
-    background-color: #FFF0DB;
-    padding: 50px;
-    text-align: center;
-}
-
-#testimonials-section h2 {
-    font-size: 2em;
-    color: #333;
-}
-
-.testimonial {
-    margin-top: 20px;
-}
-
-.testimonial p {
-    font-size: 1.2em;
-    color: #666;
-    margin-bottom: 10px;
-}
-
-/* News Article Section */
+	/* News Article Section */
 #news-section {
     background-color: #FFF0DB;
     padding: 50px;
@@ -334,7 +312,28 @@ body {
     color: #666;
     line-height: 1.6;
 }
+	
+/* Testimonials Section */
+#testimonials-section {
+    background-color: #FFF0DB;
+    padding: 50px;
+    text-align: center;
+}
 
+#testimonials-section h2 {
+    font-size: 2em;
+    color: #333;
+}
+
+.testimonial {
+    margin-top: 20px;
+}
+
+.testimonial p {
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 10px;
+}
 
 /* Footer Section Styles */
 footer {
