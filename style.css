@@ -12,14 +12,14 @@ body {
 header {
     background-color: #C8AD7F;
     color: #fff;
-    padding: 30px; /* Increased padding */
+    padding: 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .logo img {
-    height: 120px; /* Increased logo size */
+    height: 120px; /* Increases logo size */
 }
 
 .main-nav ul {
@@ -30,7 +30,7 @@ header {
 
 .main-nav ul li {
     display: inline;
-    margin-right: 30px; /* Increased margin */
+    margin-right: 30px; /* Increases margin */
 }
 
 .main-nav ul li:last-child {
@@ -40,7 +40,7 @@ header {
 .main-nav ul li a {
     color: #fff;
     text-decoration: none;
-    font-size: 1.8rem; /* Increased font size */
+    font-size: 1.8rem; /* Increases font size */
 }
 
 .main-nav ul li a:hover {
@@ -48,19 +48,19 @@ header {
 }
 
 .search-bar input[type="text"] {
-    padding: 10px; /* Increased padding */
-    font-size: 1.5rem; /* Increased font size */
+    padding: 10px; 
+    font-size: 1.5rem; /* Increases font size */
     font-family: "Times New Roman", Times, serif;
 }
 
 .search-bar button {
-    padding: 10px 15px; /* Increased padding */
+    padding: 10px 15px; /* Increases padding */
     background-color: #9F8C76;
     color: #fff;
     border: none;
-    border-radius: 5px; /* Slightly increased border-radius */
+    border-radius: 5px
     cursor: pointer;
-    font-size: 1.5rem; /* Increased font size */
+    font-size: 1.5rem; /* Increases font size */
     font-family: "Times New Roman", Times, serif;
 }
 
@@ -373,7 +373,7 @@ header {
 }
 
 .review .review-content p:last-child {
-    margin-left: 80px; /* Adjust as needed */
+    margin-left: 80px; 
 }
 
 
