@@ -313,27 +313,33 @@ body {
     line-height: 1.6;
 }
 	
-/* Testimonials Section */
-#testimonials-section {
-    background-color: #FFF0DB;
+/* Reviews Section */
+#reviews-section {
+    background-color: #f9f9f9;
     padding: 50px;
     text-align: center;
 }
 
-#testimonials-section h2 {
+#reviews-section h2 {
     font-size: 2em;
     color: #333;
 }
 
-.testimonial {
-    margin-top: 20px;
+.review {
+    display: inline-block;
+    vertical-align: top;
+    width: 30%; /* Adjust width as needed */
+    margin: 20px;
+    text-align: left;
 }
 
-.testimonial p {
+.review p {
     font-size: 1.2em;
     color: #666;
     margin-bottom: 10px;
+    line-height: 1.5;
 }
+
 
 /* Footer Section Styles */
 footer {
