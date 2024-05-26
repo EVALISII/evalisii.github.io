@@ -363,15 +363,20 @@ body {
     text-align: left;
 }
 
-.review p {
+.review img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.review .review-content {
     font-size: 1.2em;
     color: #666;
-    margin-bottom: 10px;
     line-height: 1.5;
 }
 
-.review p:last-child {
-    margin-left: 80px; /* aligns the name of reviewer */
+.review .review-content p:last-child {
+    margin-left: 120px; 
 }
 
 
