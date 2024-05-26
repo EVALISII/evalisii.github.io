@@ -273,6 +273,7 @@ header {
 	  margin: 0;
 	  color: var(--bodyTextColor);
 	}
+
 /* News Article Section */
 #news-section {
     background-color: #9F8C76;
@@ -335,19 +336,18 @@ header {
 }
 
 .review {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: 30%;
+    display: flex; /* Change to flexbox */
+    flex-direction: column; /* Stack image and review content vertically */
+    align-items: center; /* Center items horizontally */
+    width: 30%; 
     margin: 20px;
     text-align: left;
 }
 
 .review img {
-    width: 100px;
+    width: 100%;
     height: auto;
-    margin-right: 10px;
+    margin-bottom: 10px;
 }
 
 .review .review-content {
@@ -355,6 +355,11 @@ header {
     color: #666;
     line-height: 1.5;
 }
+
+.review .review-content p:last-child {
+    margin-left: 0; /* Reset margin-left */
+}
+
 
 /* Footer Section Styles */
 footer {
