@@ -1,7 +1,4 @@
 # evalisii.github.io
-bakemono student prototype
-
-<!doctype html>
 <html lang="en">
 
 <!-- ============================================ -->
