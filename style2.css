@@ -337,7 +337,7 @@ header {
 
 .review {
     display: flex; /* Change to flexbox */
-    flex-direction: row; /* Stack image and review content vertically */
+    flex-direction: column; /* Stack image and review content vertically */
     align-items: center; /* Center items horizontally */
     width: 30%; 
     margin: 20px;
