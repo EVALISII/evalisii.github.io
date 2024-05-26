@@ -82,5 +82,4 @@ bakemono student prototype
 </body>
 </html>
 
-<link rel="stylesheet" type="text/css" href="https://evalisii.github.io/style.css">
   }
