@@ -2,7 +2,7 @@
 <---          Steps             -->
 <--- -------------------------- -*/
 
-/* Mobile - 360px */
+/* Nav Bar Styles */
 body {
     font-family: "Times New Roman", Times, serif;
     margin: 0;
@@ -53,7 +53,7 @@ header {
 
 .search-bar button {
     padding: 5px;
-    background-color: #FFF0DB;
+    background-color: #9F8C76;
     color: #fff;
     border: none;
     border-radius: 3px;
@@ -122,6 +122,7 @@ body {
     color: #666;
 }
 
+/* Mobile Screen Styles */
 @media only screen and (min-width: 0rem) {
 	#baking-schedule {
 	  padding: var(--sectionPadding);
@@ -130,6 +131,8 @@ body {
 	  position: relative;
 	  z-index: 1;
 	}
+	
+/* Baking Sched Section Styles */
 	#baking-schedule .cs-container {
 	  width: 100%;
 	  /* changes to 1280px at desktop */
@@ -220,12 +223,10 @@ body {
 	  gap: clamp(3rem, 6vw, 4rem);
 	}
 	#baking-schedule .cs-content {
-	  /* set text align to left if content needs to be left aligned */
 	  text-align: left;
 	  width: 100%;
 	  display: flex;
 	  flex-direction: column;
-	  /* centers content horizontally, set to flex-start to left align */
 	  align-items: flex-start;
 	}
 	#baking-schedule .cs-topper {
@@ -240,7 +241,6 @@ body {
 	  display: grid;
 	  align-items: stretch;
 	  grid-auto-flow: row;
-	  /* 24px - 32px */
 	  gap: clamp(1.5rem, 3vw, 2rem);
 	}
 	#baking-schedule .cs-item {
@@ -249,7 +249,6 @@ body {
 	  border-bottom: #DED1BD 1px solid;
 	  display: flex;
 	  align-items: flex-start;
-	  /* 16px - 24px */
 	  gap: clamp(1rem, 2vw, 1.5rem);
 	  position: relative;
 	}
@@ -257,7 +256,6 @@ body {
 	  border-bottom: none;
 	}
 	#baking-schedule .cs-number {
-	  /* 49px - 72px */
 	  font-size: clamp(3.0625rem, 6vw, 4.5rem);
 	  font-weight: 900;
 	  line-height: 1.1875em;
@@ -266,7 +264,6 @@ body {
 	  display: block;
 	}
 	#baking-schedule .cs-h3 {
-	  /* 20px - 25px */
 	  font-size: clamp(1.25rem, 2.5vw, 1.5625rem);
 	  font-weight: 700;
 	  line-height: 1.125em;
@@ -281,6 +278,7 @@ body {
 	  color: var(--bodyTextColor);
 	}
 
+/* Footer Section Styles */
 footer {
     background-color: #C8AD7F;
     color: #fff;
@@ -335,7 +333,7 @@ footer {
 .newsletter button {
     padding: 0.5rem 1rem;
     border: none;
-    background-color: #A9A9A9;
+    background-color: #9F8C76;
     color: #fff;
     border-radius: 0.25rem;
     cursor: pointer;
@@ -363,11 +361,9 @@ footer {
 	  max-width: 80rem;
 	  flex-direction: row;
 	  align-items: stretch;
-	  /* 48px - 60px */
 	  gap: clamp(3rem, 6vw, 3.75rem);
 	}
 	#baking-schedule .cs-card-group {
-	  /* 16px - 32px */
 	  gap: clamp(1rem, 3vw, 2rem);
 	}
 	#baking-schedule .cs-item {
