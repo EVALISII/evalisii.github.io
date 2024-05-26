@@ -370,6 +370,11 @@ body {
     line-height: 1.5;
 }
 
+.review p:last-child {
+    margin-left: 20px; /* Adjust the value as needed */
+}
+
+
 
 
 /* Footer Section Styles */
