@@ -4,14 +4,14 @@
 
 /* Mobile - 360px */
 @media only screen and (min-width: 0rem) {
-	#baking schedule {
+	#baking-schedule {
 	  padding: var(--sectionPadding);
 	  background-color: #C8AD7F;
 	  overflow: hidden;
 	  position: relative;
 	  z-index: 1;
 	}
-	#baking schedule .cs-container {
+	#baking-schedule .cs-container {
 	  width: 100%;
 	  /* changes to 1280px at desktop */
 	  max-width: 44rem;
@@ -22,7 +22,7 @@
 	  align-items: center;
 	  gap: 2rem;
 	}
-	#baking schedule .cs-image-group {
+	#baking-schedule .cs-image-group {
 	  font-size: min(2.24vw, 0.9rem);
 	  width: 30.125em;
 	  height: 38.5em;
@@ -30,7 +30,7 @@
 	  position: relative;
 	  z-index: 1;
 	}
-	#baking schedule .cs-picture {
+	#baking-schedule .cs-picture {
 	  width: 43em;
 	  height: 24em;
 	  margin-top: 1.5em;
@@ -43,11 +43,11 @@
 	  left: 0.5em;
 	  z-index: -1;
 	}
-	#baking schedule .cs-number-img {
+	#baking-schedule .cs-number-img {
 		width: 150px;
 		height: auto;
 	}
-	#baking schedule .cs-picture img {
+	#baking-schedule .cs-picture img {
 	  width: 100%;
 	  height: 100%;
 	  object-fit: cover;
@@ -56,11 +56,11 @@
 	  left: 0;
 	  transition: transform 0.7s;
 	}
-	#baking schedule .cs-graphic {
+	#baking-schedule .cs-graphic {
 	  height: auto;
 	  position: absolute;
 	}
-	#baking schedule .cs-brown {
+	#baking-schedule .cs-brown {
 	  width: 10.3125em;
 	  height: auto;
 	  top: 1.25em;
@@ -68,39 +68,39 @@
 	  z-index: -2;
 	  transform: rotate(140deg);
 	}
-	#baking schedule .cs-peach {
+	#baking-schedule .cs-peach {
 	  width: 4.3125em;
 	  height: auto;
 	  top: 1em;
 	  left: 8.75em;
 	  transform: rotate(-40deg);
 	}
-	#baking schedule .cs-leaf {
+	#baking-schedule .cs-leaf {
 	  width: 14em;
 	  height: auto;
 	  bottom: 0em;
 	  right: 1em;
 	  z-index: 1;
 	}
-	#baking schedule .cs-dots {
+	#baking-schedule .cs-dots {
 	  width: 16.3125em;
 	  height: auto;
 	  left: 1em;
 	  bottom: 1em;
 	  z-index: -2;
 	}
-	#baking schedule .cs-lines {
+	#baking-schedule .cs-lines {
 	  width: 15.375em;
 	  right: 0;
 	  bottom: 0em;
 	}
-	#baking schedule .cs-wrapper {
+	#baking-schedule .cs-wrapper {
 	  display: flex;
 	  flex-direction: column;
 	  /* 48px - 64px */
 	  gap: clamp(3rem, 6vw, 4rem);
 	}
-	#baking schedule .cs-content {
+	#baking-schedule .cs-content {
 	  /* set text align to left if content needs to be left aligned */
 	  text-align: left;
 	  width: 100%;
@@ -109,13 +109,13 @@
 	  /* centers content horizontally, set to flex-start to left align */
 	  align-items: flex-start;
 	}
-	#baking schedule .cs-topper {
+	#baking-schedule .cs-topper {
 	  color: var(--secondary);
 	}
-	#baking schedule .cs-title {
+	#baking-schedule .cs-title {
 	  margin: 0;
 	}
-	#baking schedule .cs-card-group {
+	#baking-schedule .cs-card-group {
 	  margin: 0;
 	  padding: 0;
 	  display: grid;
@@ -124,7 +124,7 @@
 	  /* 24px - 32px */
 	  gap: clamp(1.5rem, 3vw, 2rem);
 	}
-	#baking schedule .cs-item {
+	#baking-schedule .cs-item {
 	  list-style: none;
 	  padding-bottom: 2rem;
 	  border-bottom: #DED1BD 1px solid;
@@ -134,10 +134,10 @@
 	  gap: clamp(1rem, 2vw, 1.5rem);
 	  position: relative;
 	}
-	#baking schedule .cs-item:last-of-type {
+	#baking-schedule .cs-item:last-of-type {
 	  border-bottom: none;
 	}
-	#baking schedule .cs-number {
+	#baking-schedule .cs-number {
 	  /* 49px - 72px */
 	  font-size: clamp(3.0625rem, 6vw, 4.5rem);
 	  font-weight: 900;
@@ -146,7 +146,7 @@
 	  opacity: 0.2;
 	  display: block;
 	}
-	#baking schedule .cs-h3 {
+	#baking-schedule .cs-h3 {
 	  /* 20px - 25px */
 	  font-size: clamp(1.25rem, 2.5vw, 1.5625rem);
 	  font-weight: 700;
@@ -154,7 +154,7 @@
 	  margin: 0 0 0.75rem 0;
 	  color: var(--headerColor);
 	}
-	#baking schedule .cs-item-text {
+	#baking-schedule .cs-item-text {
 	  font-size: 1rem;
 	  line-height: 1.5em;
 	  text-align: left;
@@ -240,21 +240,21 @@ footer {
   }
   /* Tablet - 768px */
   @media only screen and (min-width: 48rem) {
-	#baking schedule .cs-container {
+	#baking-schedule .cs-container {
 	  max-width: 80rem;
 	  flex-direction: row;
 	  align-items: stretch;
 	  /* 48px - 60px */
 	  gap: clamp(3rem, 6vw, 3.75rem);
 	}
-	#baking schedule .cs-card-group {
+	#baking-schedule .cs-card-group {
 	  /* 16px - 32px */
 	  gap: clamp(1rem, 3vw, 2rem);
 	}
-	#baking schedule .cs-item {
+	#baking-schedule .cs-item {
 	  flex-direction: row;
 	}
-	#baking schedule .cs-image-group {
+	#baking-schedule .cs-image-group {
 	  font-size: min(1.5vw, 1rem);
 	  height: auto;
 	  min-height: 38.5em;
@@ -262,7 +262,7 @@ footer {
 	  /* sends it to the right in the 2nd position */
 	  order: 2;
 	}
-	#baking schedule .cs-picture {
+	#baking-schedule .cs-picture {
 	  height: 96.266234%;
 	}
   }
